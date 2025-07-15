@@ -1,0 +1,34 @@
+
+# private areas
+.init/
+
+# Node modules and Vite output
+node_modules/
+dist/
+build/
+
+# Python and FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# IDE and system files
+.vscode/
+.DS_Store
+*.log
+
+# React dev files
+*.local
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test assets
+backend/tests/samples/*
+!backend/tests/samples/.gitkeep
